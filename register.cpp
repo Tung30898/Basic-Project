@@ -1,6 +1,4 @@
-#include"register.h"
-
-using namespace std;
+#include "register.h"
 
 int Register::SelectionScreen() {
     int select = 0;
@@ -41,7 +39,7 @@ void Register::Login() {
     int count = 0;
     string acc, pws;
     string accSave, pwsSave;
-    fstream read("test.txt", ios::in);
+    fstream read("DataUser.txt", ios::in);
     cout << "Account: ";
     cin >> acc;
     cout << "Password: ";
@@ -55,18 +53,20 @@ void Register::Login() {
                 break;
             case 1:
                 read>>pwsSave;
-                cout << accSave << "\n";
+                cout << pwsSave << "\n";
                 count++;
                 break;
             case 2:
                 count = 0;
                 if(accSave == acc && pwsSave == pws) {
-                    cout << "Login successful";
+                    cout << "Login successful\n";
                     read.close();
                     return;
                 }
                 break;
         }
     }
+    cout << "Your account or password is failed\n";
     read.close();
+    return;
 }
