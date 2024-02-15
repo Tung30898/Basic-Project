@@ -1,0 +1,3 @@
+/cygdrive/c/Users/tung2.pham/Desktop/c++/Basic-Project/CMakeFiles/Register.dir
+/cygdrive/c/Users/tung2.pham/Desktop/c++/Basic-Project/CMakeFiles/edit_cache.dir
+/cygdrive/c/Users/tung2.pham/Desktop/c++/Basic-Project/CMakeFiles/rebuild_cache.dir

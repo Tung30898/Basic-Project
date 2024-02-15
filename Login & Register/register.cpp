@@ -22,7 +22,7 @@ void Register::CreatAcc() {
         cout << "Re-Password:";
         cin >> repws;
     }while(pws != repws);
-    write.open("test.txt",ios::app | ios::ate);
+    write.open("DataUser.txt",ios::app | ios::ate);
     if(!write.is_open()) {
         cout << "File opened failed";
         return;

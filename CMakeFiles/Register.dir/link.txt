@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -Wl,--enable-auto-import CMakeFiles/Register.dir/main.cpp.o CMakeFiles/Register.dir/register.cpp.o -o Register.exe -Wl,--out-implib,libRegister.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
