@@ -6,6 +6,8 @@
 #include<string>
 #include<ctime>
 
+using namespace std;
+
 class Book {
 private:
     string mName;
@@ -14,11 +16,15 @@ private:
     uint8_t mDateBuy[6];
     bool mAble;
 public:
+    time_t mStartTime;
+    time_t mEndTime; 
     uint8_t mDateBorrow[6];
     uint8_t mDateReturn[6];
     
     Book();
     virtual ~Book();
+    void BorrowBook();
+    void GiveBookBack();
 
     /*get function*/
     string GetName(){
