@@ -8,14 +8,16 @@
 using namespace std;
 
 class Console {
+private:
+    Person* mPerson;
 public:
-    Console(){};
-    virtual ~Console(){};
     void MainScreen();
     void BookListScreen();
-    // void ListIsBorrowed();
-    // void BorrowBook();
-    // void BackBook();
+    void ListIsBorrowedScreen();
+    void BorrowBookScreen();
+    void BackBookScreen();
+    Console(){};
+    virtual ~Console(){};
 };
 
 #endif

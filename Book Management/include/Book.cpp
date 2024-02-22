@@ -5,9 +5,4 @@ Book::Book(){
     mID = "";
     mPrice = 0;
     mAble = true;
-    
-}
-
-void Book::GiveBookBack(uint8_t* bookBack){
-
 }

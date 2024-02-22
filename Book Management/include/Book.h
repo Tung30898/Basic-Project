@@ -13,18 +13,13 @@ private:
     string mName;
     string mID;
     long mPrice;
-    uint8_t mDateBuy[6];
     bool mAble;
 public:
     time_t mStartTime;
-    time_t mEndTime; 
-    uint8_t mDateBorrow[6];
-    uint8_t mDateReturn[6];
-    
+    time_t mEndTime;
+
     Book();
     virtual ~Book();
-    void BorrowBook();
-    void GiveBookBack();
 
     /*get function*/
     string GetName(){
