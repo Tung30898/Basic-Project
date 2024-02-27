@@ -14,11 +14,10 @@ void Person::BorrowBook() {
     while(getline(readFile,readLine)) {
         if(readLine == mName) {
             getline(readFile,readLine);
-            if(readLine = mIDCard) {
+            if(readLine == mIDCard) {
                 mCheck = true;
                 break;
             }
-                
         }
     }
     if(true == mCheck) {
@@ -28,9 +27,15 @@ void Person::BorrowBook() {
     }
     cin >> mPhone;
     cout << "Serial Book:";
-    cin >> mBook->SetID();
-
+    string ID="";
+    cin >> ID;
+    mBook->SetID(ID);
+    mBook->SetTimeBorrow();
     readFile.close();
+}
+
+void Person::BackBook(){
+    cout << "Debug: BackBook";
 }
 
 Person::Person() {

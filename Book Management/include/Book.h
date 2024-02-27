@@ -21,6 +21,9 @@ public:
     Book();
     virtual ~Book();
 
+    void SetTimeBorrow();
+    void SetTimeBack();
+
     /*get function*/
     string GetName(){
         return mName;
@@ -30,9 +33,6 @@ public:
     }
     long GetPrice(){
         return mPrice;
-    }
-    uint8_t* GetDateBuy(){
-        return mDateBuy;
     }
     const bool GetAvaiable(){
         return mAble;

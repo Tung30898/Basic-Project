@@ -1,15 +1,8 @@
-#include "Console.h"
-
+#include "../include/Console.h"
+#include "../include/Book.h"
+#include "../include/Person.h"
 int main() {
-    Console* test = new Console();
-    int a = 0;
-    cout << "test script";
-    test->MainScreen();
-    while(a==0){
-        cout << "select:";
-        cin >> a;
-    }
-    if(a == 1)
-        test->BookListScreen();
+    Console* console = new Console();
+    console -> MainScreen();
     return 0;
 }

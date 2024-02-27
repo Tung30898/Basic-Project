@@ -1,0 +1,3 @@
+C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book Management/build/CMakeFiles/testBook.dir
+C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book Management/build/CMakeFiles/edit_cache.dir
+C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book Management/build/CMakeFiles/rebuild_cache.dir

@@ -16,7 +16,7 @@ private:
     Book* mBook;
 public:
     Person();
-    virtual ~Person();
+    virtual ~Person(){};
     void BorrowBook();
     void BackBook();
 };

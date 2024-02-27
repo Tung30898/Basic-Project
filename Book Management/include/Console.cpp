@@ -37,6 +37,6 @@ void Console::BackBookScreen(){
     mPerson->BackBook();
 }
 
-Console::Console():mPerson(new Person){
+Console::Console(){
     cout << "Debug: contructor Console";
 }

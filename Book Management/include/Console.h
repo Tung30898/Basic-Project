@@ -4,6 +4,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 #include <string>
+#include "Person.h"
 
 using namespace std;
 
@@ -16,7 +17,7 @@ public:
     void ListIsBorrowedScreen();
     void BorrowBookScreen();
     void BackBookScreen();
-    Console(){};
+    Console();
     virtual ~Console(){};
 };
 
