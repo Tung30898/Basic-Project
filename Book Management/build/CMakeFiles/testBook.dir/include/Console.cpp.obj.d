@@ -327,4 +327,7 @@ CMakeFiles/testBook.dir/include/Console.cpp.obj: \
  d:\mingw64\include\c++\12.2.0\bits\uses_allocator_args.h \
  d:\mingw64\include\c++\12.2.0\variant \
  C:\Users\PC\OneDrive\Desktop\c++\Basic-Project\Book\ Management\include\Person.h \
- C:\Users\PC\OneDrive\Desktop\c++\Basic-Project\Book\ Management\include\Book.h
+ C:\Users\PC\OneDrive\Desktop\c++\Basic-Project\Book\ Management\include\Book.h \
+ d:\mingw64\x86_64-w64-mingw32\include\unistd.h \
+ d:\mingw64\x86_64-w64-mingw32\include\io.h \
+ d:\mingw64\x86_64-w64-mingw32\include\getopt.h

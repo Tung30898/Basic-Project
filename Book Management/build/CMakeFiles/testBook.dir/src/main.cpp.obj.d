@@ -328,5 +328,10 @@ CMakeFiles/testBook.dir/src/main.cpp.obj: \
  d:\mingw64\include\c++\12.2.0\variant \
  c:\users\pc\onedrive\desktop\c++\basic-project\book\ management\include\Person.h \
  c:\users\pc\onedrive\desktop\c++\basic-project\book\ management\include\Book.h \
+ d:\mingw64\x86_64-w64-mingw32\include\unistd.h \
+ d:\mingw64\x86_64-w64-mingw32\include\io.h \
+ d:\mingw64\x86_64-w64-mingw32\include\getopt.h \
  c:\users\pc\onedrive\desktop\c++\basic-project\book\ management\include\book.h \
- c:\users\pc\onedrive\desktop\c++\basic-project\book\ management\include\person.h
+ c:\users\pc\onedrive\desktop\c++\basic-project\book\ management\include\person.h \
+ d:\mingw64\x86_64-w64-mingw32\include\conio.h \
+ d:\mingw64\x86_64-w64-mingw32\include\sec_api\conio_s.h

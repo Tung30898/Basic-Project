@@ -667,7 +667,10 @@ CMakeFiles/testBook.dir/include/Console.cpp.obj: C:/Users/PC/OneDrive/Desktop/c+
   D:/mingw64/include/c++/12.2.0/bits/uses_allocator_args.h \
   D:/mingw64/include/c++/12.2.0/variant \
   C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Person.h \
-  C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Book.h
+  C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Book.h \
+  D:/mingw64/x86_64-w64-mingw32/include/unistd.h \
+  D:/mingw64/x86_64-w64-mingw32/include/io.h \
+  D:/mingw64/x86_64-w64-mingw32/include/getopt.h
 
 CMakeFiles/testBook.dir/include/Person.cpp.obj: C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Person.cpp \
   C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Person.h \
@@ -1001,7 +1004,10 @@ CMakeFiles/testBook.dir/include/Person.cpp.obj: C:/Users/PC/OneDrive/Desktop/c++
   D:/mingw64/include/c++/12.2.0/memory_resource \
   D:/mingw64/include/c++/12.2.0/bits/uses_allocator_args.h \
   D:/mingw64/include/c++/12.2.0/variant \
-  C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Book.h
+  C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Book.h \
+  D:/mingw64/x86_64-w64-mingw32/include/unistd.h \
+  D:/mingw64/x86_64-w64-mingw32/include/io.h \
+  D:/mingw64/x86_64-w64-mingw32/include/getopt.h
 
 CMakeFiles/testBook.dir/src/main.cpp.obj: C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/src/main.cpp \
   C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Console.h \
@@ -1337,9 +1343,20 @@ CMakeFiles/testBook.dir/src/main.cpp.obj: C:/Users/PC/OneDrive/Desktop/c++/Basic
   D:/mingw64/include/c++/12.2.0/variant \
   C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Person.h \
   C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Book.h \
+  D:/mingw64/x86_64-w64-mingw32/include/unistd.h \
+  D:/mingw64/x86_64-w64-mingw32/include/io.h \
+  D:/mingw64/x86_64-w64-mingw32/include/getopt.h \
   C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Book.h \
-  C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Person.h
+  C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Person.h \
+  D:/mingw64/x86_64-w64-mingw32/include/conio.h \
+  D:/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h
 
+
+D:/mingw64/x86_64-w64-mingw32/include/sec_api/conio_s.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/io.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/unistd.h:
 
 C:/Users/PC/OneDrive/Desktop/c++/Basic-Project/Book\ Management/include/Console.cpp:
 
@@ -1446,6 +1463,8 @@ D:/mingw64/include/c++/12.2.0/bits/fs_ops.h:
 D:/mingw64/include/c++/12.2.0/bits/cxxabi_forced.h:
 
 D:/mingw64/x86_64-w64-mingw32/include/pthread_compat.h:
+
+D:/mingw64/x86_64-w64-mingw32/include/conio.h:
 
 D:/mingw64/include/c++/12.2.0/ext/alloc_traits.h:
 
@@ -1858,6 +1877,8 @@ D:/mingw64/include/c++/12.2.0/bits/regex_automaton.h:
 D:/mingw64/include/c++/12.2.0/tr1/poly_laguerre.tcc:
 
 D:/mingw64/include/c++/12.2.0/tr1/riemann_zeta.tcc:
+
+D:/mingw64/x86_64-w64-mingw32/include/getopt.h:
 
 D:/mingw64/include/c++/12.2.0/ext/string_conversions.h:
 
